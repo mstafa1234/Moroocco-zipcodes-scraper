@@ -8,7 +8,7 @@ process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0";
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "fafa123",
+  password: "password",
   database: "zipcodes",
 });
 
